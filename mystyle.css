@@ -1,0 +1,87 @@
+body {
+
+  background-color:black;
+  box-sizing:border-box;
+
+}
+
+h1{
+
+  text-align:center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.left,.right{
+height:600px;
+width:300px;
+background-color:#ffffff;
+border-radius:60px;
+margin-top:40px;
+}
+
+.btw{
+padding-top:20px;
+margin:0 10px 0 10px;
+}
+
+ 
+
+.left{
+margin-left:18%;
+display:inline-block;
+}
+
+ 
+
+.right{
+
+  float:right;
+  margin-right:18%;
+}
+
+.img1{
+background-image:url(images/drinks.jpg);
+border-radius: 60px 60px 0 90px;
+height:280px;
+width:300px;
+background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.img2{
+  background-image:url(images/food.jpg);
+  border-radius: 60px 60px 90px 0;
+  height:280px;
+  width:300px;
+  background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+  }
+
+p{
+    text-align:center;
+    overflow-wrap:break-word;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding:30px;
+}
+
+.center{
+  margin-bottom: 2%;
+  text-align:center;
+
+  padding:2%;
+
+  background-color:white;
+
+}
+
+a{
+  text-decoration:none;
+  background: grey;
+  color:rgb(210, 250, 250);
+  padding:10px 60px;
+  border-radius: 5px;
+  font-family:sans-serif;
+}
